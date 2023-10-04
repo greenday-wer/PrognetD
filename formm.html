@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isi Form Biodata</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link For Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body>
+    <section class="container">
+      <form action="index.html" class="form">
+        <h1 class= "text-center input-box fw-bold">Form Biodata</h1>
+        <div class="form-group input-box fullname">
+          <label for ="fullname">Nama Lengkap</label>
+          <input type="text" id="fullname" placeholder="Masukan Nama Lengkap" />
+        </div>
+
+        <div class="form-group input-box nim">
+          <label>NIM</label>
+          <input type="text" id="nim" placeholder="Masukan NIM Lengkap" />
+        </div>
+
+        <div class="form-group input-box email">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Masukan Email Anda">
+        </div>
+
+        <div class="form-group input-box password">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Masukan Password Anda">
+          <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
+        </div>
+
+        <div class="form-group input-box num">
+          <label>Nomor Handphone</label>
+          <input type="number" id="num" placeholder="Masukan Nomor Handphone Anda" />
+        </div>
+
+        <div class="gender-box">
+          <label for="nim">Jenis Kelamin</label>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="checkmale" name="gender"  />
+              <label for="checkmale">Laki-Laki</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="checkmale" name="gender" />
+              <label for="checkmale">Perempuan</label>
+            </div>
+          </div>
+
+          <div class="gender-box">
+              <h3>Golongan Darah</h3>
+              <div class="gender-option">
+                <div class="chec">
+                  <input type="checkbox" id="chec" name="chec"  />
+                  <label for="chec">A</label>
+                </div>
+                <div class="chec">
+                  <input type="checkbox" id="chec" name="chec" />
+                  <label for="chec">B</label>
+                </div>
+                <div class="chec">
+                  <input type="checkbox" id="chec" name="chec" />
+                  <label for="chec">O</label>
+                </div>
+                <div class="chec">
+                  <input type="checkbox" id="chec" name="chec" />
+                  <label for="chec">AB</label>
+                </div>
+              </div>
+            </div>
+      
+        <div class="form-group input-box date">
+          <label for="date">Tanggal Lahir</label>
+          <input type="date" id="date" placeholder="Masukan Tanggal Lahir Anda">
+        </div>
+
+        <div class="input-box address">
+            <label>Alamat</label>
+            <input type="text" placeholder="Masukan Alamat Anda(jl/gang .dll)"  />
+            <div class="column">
+              <div class="select-box">
+                <select>
+                  <option hidden>Negara</option>
+                  <option>Indonesia</option>
+                  <option>Singapura</option>
+                  <option>jepang</option>
+                  <option>Malaysia</option>
+                </select>
+              </div>
+              <input type="text" placeholder="Masukan Kota/Kabupaten"  />
+            </div>
+            <div class="column">
+              <input type="text" placeholder="Masukan Kecamatan"  />
+              <input type="number" placeholder="Masukan Kode Pos"  />
+            </div>
+          </div>
+
+            <div class="form-group input-box message">
+              <label>Ceritakan Tentang Diri Anda</label>
+              <div>
+              <textarea rows="1" cols="99">
+              </textarea>
+          </div>
+
+          <div class="form-group input-box">
+            <label for="gender">Jurusan</label>
+            <select id="gender">
+              <option value="" selected disabled>Jurusan</option>
+              <option value="1">Jurusan Teknologi Informasi</option>
+              <option value="2">Jurusan Teknik Mesin</option>
+              <option value="3">Jurusan Teknik Elektro</option>
+              <option value="4">Jurusan Teknik Lingkungan</option>
+              <option value="5">Jurusan Teknik Industri</option>
+            <option value="6">Jurusan Teknik Sipil</option>
+            </select>
+          </div>
+        <div class="form-group input-box submit-btn">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+      <script src="js.js"></script>
+    </section>
+  </body>
+</html>
