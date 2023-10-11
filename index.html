@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/021f3eb1da35b2a042907dc870c00b9c?family=TwentiethCenturyW01-XBdCn"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet/app.css" />
+    <link rel="stylesheet" href="stylesheet/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.css"
+    />
+    <title>Bayu Lobi Profile</title>
+  </head>
+
+  <body>
+    <ul class="nav justify-content-center bg-light fixed-top">
+      <li class="nav-item">
+        <!-- <a class="nav-link" href="#"> -->
+        <a
+          class="buttonToggle"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"
+          ><i class="fas fa-bars toggleSlide"></i
+        ></a>
+
+        <div
+          class="offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+              Pilih Menu :
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <li>
+                <a class="nav-link" href="#Biodata">Biodata</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Isiform">Isi Form Biodata</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#Kontak">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- </a> -->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link initial" href="#" aria-current="page">Home</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link fw-bold" href="#Biodata">Biodata</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link fw-bold" href="#Isiform">Isi Form Biodata</a>
+      </li>
+      <li class="nav-item-item">
+        <a class="nav-link fw-bold" href="#Kontak">Kontak</a>
+      </li>
+    </ul>
+    <div class="all-body-cover">
+      <img
+        width="300px"
+        src="bayu.jpg"
+        class="img-thumbnail rectanggle mx-auto d-block"
+        alt="..."
+      />
+      <div class="nama">
+        <h4 class="text-center fw-bold">Komang Bayu Lobi Hartawan</h4>
+        <h5 class="text-center fw-bold">2205551025</h5>
+        <h6 class="text-center fw-bold">Pemrograman Internet (D)</h6>
+        <h7 class="text-center fw-bold">Teknologi Informasi, Fakultas Teknik, Universitas Udayana</h7>
+      </div>
+
+      <svg
+        class="waves"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,160L48,149.3C96,139,192,117,288,144C384,171,480,245,576,272C672,299,768,277,864,250.7C960,224,1056,192,1152,186.7C1248,181,1344,203,1392,213.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+      <div class="firstContainer">
+        <div class="content">
+          <h2
+            data-aos="fade-up"
+            data-aos-duration="800"
+            id="Biodata"
+            class="nameHeading fw-bold"
+          >
+            BIODATA
+          </h2>
+          <div class="container text-center">
+            <div class="row">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="col-sm-4 mb-2"
+              >
+                Hallo, Perkenalkan nama saya Komang Bayu Lobi Hartawan, saya berasal dari 
+                Desa Sembiran, Kecamatan Tejakula, Kabupaten Buleleng
+                sekarang saya adalah seorang Mahasiswa Teknologi Informasi, Fakultas Teknik, Universitas Udayana.
+                alasan saya memilih jurusan Teknologi Informasi adalah karena saya memiliki ketertarikan 
+                dengan teknologi khusunya bidang komputer dan banyak lagi.
+
+              </div>
+              <div
+                data-aos="fade-up"
+                data-aos-duration="800"
+                class="col-sm-4 mb-2"
+              >
+                <h4 class="subNameHeading fw-bold">EDUCATION</h4>
+                <div class="education">
+                  <!-- Button trigger modal -->
+                  <p class="startEnd">Tahun 2009</p>
+                  <button
+                    type="button"
+                    class="btn btn-danger itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1"
+                  >
+                    SDN 1 Sembiran
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal1"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">Awal masuk SD saya berumur 7 Tahun</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="startEnd">Lulus Tahun 2015</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Mulai Tahun 2015</p>
+                  <button
+                    type="button"
+                    class="btn btn-danger itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"
+                  >
+                    SMPN 3 Tejakula
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal2"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">Awal masuk SMP saya berumur 12 tahun</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="startEnd">Lulus tahun 2019</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Mulai Tahun 2019</p>
+                  <button
+                    type="button"
+                    class="btn btn-danger itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal3"
+                  >
+                    SMK N BALIMANDARA
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal3"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">Awal masuk SMK saya berumur 18 tahun
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="startEnd">Lulus Tahun 2022</p>
+                  <i class="fas fa-arrow-circle-down itemEdu"></i>
+                  <!-- <i class="fas fa-arrow-circle-down itemEdu"></i> -->
+                  <p class="startEnd">Mulai Tahun 2022</p>
+                  <button
+                    type="button"
+                    class="btn btn-danger itemEdu"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal4"
+                  >
+                    Universitas Udayana
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal4"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Achievement
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">Mulai Tahun 2022</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="startEnd">Lulus Tahun Coming Soon</p>
+                </div>
+              </div>
+              <div data-aos="fade-up" data-aos-duration="800" class="col-sm-4">
+                Hobi saya adalah fotografi, videografi dan olahraga dan juga belajar website
+                tapi dari hobi yang saya minati tidak jago sama sekali tergantung mood, tapi 
+                saya suka menjalani hobi tersebut, tapi saya akan berusaha supaya saya bisa 
+                menjadi apa yang saya inginkan.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second -->
+    <div class="secondContainer">
+      <h2
+        data-aos="fade-up"
+        data-aos-duration="800"
+        id="Isiform"
+        class="achive fw-bold"
+      >
+        Isi Form Biodata
+      </h2>
+      <div class="categoryy">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div data-aos="fade-up" data-aos-duration="800" class="col">
+              <div class="article-container-firstRow text-uppercase mx-auto">
+                <a
+                  href="belajarr.html"
+                  style="text-decoration: none"
+                >
+                  <div class="article-img-holder-firstRow">Isi Form</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <svg
+      class="wavesContact"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#ffffff"
+        fill-opacity="1"
+        d="M0,32L60,58.7C120,85,240,139,360,133.3C480,128,600,64,720,69.3C840,75,960,149,1080,154.7C1200,160,1320,96,1380,64L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+      ></path>
+    </svg>
+    <div class="fivethContainer">
+      <h2 id="Kontak" class="contactMe fw-bold">Kontak</h2>
+      <div class="container">
+        <div class="linkSosmed">
+          <a class="itemSosmed" href="https://instagram.com/komang.bayu.399"
+            ><i class="fab fa-instagram fa-2xl"></i
+          ></a>
+          <a class="itemSosmed" href="https://www.tiktok.com/@kopiorako"
+            ><i class="fab fa-tiktok fa-2xl"></i
+          ></a>
+          <a class="itemSosmed" href="hartawank3@gmail.com"
+            ><i class="fab fa-google fa-2xl"></i
+          ></a>
+          <a class="itemSosmed" href="https://github.com/greenday-wer"
+            ><i class="fab fa-github fa-2xl"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!--
+    <svg
+      class="wavesContact"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 320"
+    >
+      <path
+        fill="#ffffff"
+        fill-opacity="1"
+        d="M0,32L60,58.7C120,85,240,139,360,133.3C480,128,600,64,720,69.3C840,75,960,149,1080,154.7C1200,160,1320,96,1380,64L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+      ></path>
+    </svg>
+    <script src="assets/stylesheet/app.js"></script>-->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init();
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

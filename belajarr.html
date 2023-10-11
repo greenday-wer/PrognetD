@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>JavaScript Form Validation Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+    <div class="container">
+        <form id="signup" class="form" method="POST" action="process-form.php">
+            <h1>Form Biodata</h1>
+            <!-- Elemen input tanggal dengan id dan name -->
+            <div class="form-field">
+                <label for="username">Nama Lengkap</label>
+                <input class="form-control form-control-lg" type="text" name="username" id="username" autocomplete="off">
+                <small></small>
+            </div>
+        
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input class="form-control form-control-lg" type="text" name="email" id="email" autocomplete="off">
+                <small></small>
+            </div>
+        
+            <div class="form-field">
+                <label for="password">Password:</label>
+                <input class="form-control form-control-lg" type="password" name="password" id="password" autocomplete="off">
+                <small></small>
+            </div>
+        
+            <div class="form-field">
+                <label for="address" class="form-label">Alamat</label>
+                <textarea class="form-control" name="address" id="address" rows="3" autocomplete="off"></textarea>
+                <small></small>
+            </div>
+        
+            <div>
+                <label for="date" class="form-label">Tanggal Lahir:</label>
+                <!-- Elemen input tanggal dengan id dan name -->
+                <input type="date" class="form-control" id="date" name="date">
+                <small></small>
+            </div>
+        
+            <label for="gender" class="form-label">Jenis Kelamin</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="flexRadioDefault1" value="Laki-Laki">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Laki-Laki
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="flexRadioDefault2" value="Perempuan" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                    Perempuan
+                </label>
+            </div>
+            
+            <div class="form-select">
+                <label for="programStudi" class="form-label">Program Studi</label>
+                <select id="programStudi" name="programStudi" class="form-select">
+                    <option selected disabled>Pilih Program Studi</option>
+                    <option value="Teknologi Informasi">Teknologi Informasi</option>
+                    <option value="Teknik Elektro">Teknik Elektro</option>
+                    <option value="Teknik Mesin">Teknik Mesin</option>
+                    <option value="Teknik Lingkungan">Teknik Lingkungan</option>
+                    <option value="Teknik Industri">Teknik Industri</option>
+                    <option value="Teknik Sipil">Teknik Sipil</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <!-- Tombol Sign Up untuk mengirimkan formulir -->
+                <input type="submit" value="Sign Up">
+            </div>
+        </form>
+    </div>
+    <script src="jss.js"></script>
+</body>
+</html>
